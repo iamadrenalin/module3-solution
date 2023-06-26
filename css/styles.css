@@ -1,0 +1,70 @@
+body {
+    background-color: hsl(210, 100%, 98%);
+    color: hsl(210, 100%, 15%);
+}
+
+#navbar {
+    background-color: hsl(210, 100%, 15%);
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-brand a {
+    color:  hsl(210, 100%, 98%);
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: hsl(210, 100%, 98%);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: hsl(210, 100%, 98%);
+}
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: hsl(210, 100%, 15%);
+}
+
+#navbar li {
+    border-bottom: 1px solid #f1fffc;
+}
+#navbar li:hover,
+.navbar-default .navbar-toggle:hover {
+    background-color: hsl(210, 100%, 98%);
+}
+#navbar li a {
+    color: hsl(210, 100%, 98%);
+    font-size: 1.5em;
+}
+#navbar li:hover a {
+    color: hsl(210, 100%, 15%);
+}
+
+
+.container h1 {
+    font-weight: bold;
+}
+.container .row section {
+    margin-bottom: 24px;
+}
+.container .row section h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.container .row #chicken {
+    background-color: hsl(210, 25%, 85%);
+}
+.container .row #beef {
+    background-color: hsl(210, 75%, 85%);
+}
+.container .row #sushi {
+    background-color: hsl(210, 50%, 85%);
+}
+
+
+@media (max-width: 767px) {
+    .container {
+        margin-inline: 15px;
+    }
+}
